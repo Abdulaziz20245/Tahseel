@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm run *)",
+      "PowerShell(npm install *)",
+      "PowerShell(node -e \"const p=require\\('./node_modules/@google/genai/package.json'\\);console.log\\(p.version\\)\"; Select-String -Path node_modules\\\\@google\\\\genai\\\\dist\\\\genai.d.ts -Pattern \"generateContent\\\\\\(|interactions|maxOutputTokens\\\\?|systemInstruction\\\\?\" | Select-Object -First 6 | ForEach-Object { $_.Line.Trim\\(\\).Substring\\(0, [Math]::Min\\(120, $_.Line.Trim\\(\\).Length\\)\\) })",
+      "PowerShell(New-Item *)",
+      "PowerShell(git check-ignore *)"
+    ]
+  }
+}

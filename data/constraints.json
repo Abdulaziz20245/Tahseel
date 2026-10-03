@@ -1,0 +1,9 @@
+[
+  {
+    "id": "C-NSM-CAP",
+    "companyId": "NSM",
+    "kind": "weeklyCap",
+    "amount": 1500000,
+    "note": "Treasury limit: no more than SAR 1,500,000 to the hub per week"
+  }
+]

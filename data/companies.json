@@ -1,0 +1,134 @@
+[
+  {
+    "id": "SBG",
+    "name": "Saudi Binladin Group",
+    "shortName": "Saudi Binladin",
+    "sector": "Contracting",
+    "city": "Jeddah",
+    "vatNumber": "346663610799173",
+    "crNumber": "3030909109",
+    "x": -188,
+    "y": -38
+  },
+  {
+    "id": "NSM",
+    "name": "Nesma & Partners",
+    "shortName": "Nesma",
+    "sector": "Contracting",
+    "city": "Al Khobar",
+    "vatNumber": "366599636164783",
+    "crNumber": "1706585898",
+    "x": 188,
+    "y": -38
+  },
+  {
+    "id": "ESE",
+    "name": "El Seif Engineering Contracting",
+    "shortName": "El Seif",
+    "sector": "Contracting",
+    "city": "Riyadh",
+    "vatNumber": "326345269068243",
+    "crNumber": "4331796139",
+    "x": 0,
+    "y": 110
+  },
+  {
+    "id": "ZML",
+    "name": "Zamil Steel",
+    "shortName": "Zamil Steel",
+    "sector": "Steel",
+    "city": "Dammam",
+    "vatNumber": "379000640169563",
+    "crNumber": "1017000170",
+    "x": 0,
+    "y": -200
+  },
+  {
+    "id": "YSI",
+    "name": "Al Yamamah Steel Industries",
+    "shortName": "Yamamah Steel",
+    "sector": "Steel",
+    "city": "Riyadh",
+    "vatNumber": "334795865809623",
+    "crNumber": "4318024068",
+    "x": 270,
+    "y": -153
+  },
+  {
+    "id": "BPT",
+    "name": "Al-Babtain Power & Telecom",
+    "shortName": "Al-Babtain",
+    "sector": "Electrical",
+    "city": "Riyadh",
+    "vatNumber": "374907386087373",
+    "crNumber": "8385106564",
+    "x": 414,
+    "y": -35
+  },
+  {
+    "id": "ALM",
+    "name": "Almarai",
+    "shortName": "Almarai",
+    "sector": "Food",
+    "city": "Riyadh",
+    "vatNumber": "340785333363733",
+    "crNumber": "7924812175",
+    "x": 364,
+    "y": 100
+  },
+  {
+    "id": "PND",
+    "name": "Panda Retail Company",
+    "shortName": "Panda Retail",
+    "sector": "Retail",
+    "city": "Jeddah",
+    "vatNumber": "308832580011993",
+    "crNumber": "1530221749",
+    "x": 144,
+    "y": 188
+  },
+  {
+    "id": "SCC",
+    "name": "Saudi Ceramics",
+    "shortName": "Saudi Ceramics",
+    "sector": "Building Materials",
+    "city": "Riyadh",
+    "vatNumber": "396317339268383",
+    "crNumber": "7691737447",
+    "x": -144,
+    "y": 188
+  },
+  {
+    "id": "YCC",
+    "name": "Yamama Cement",
+    "shortName": "Yamama Cement",
+    "sector": "Cement & Concrete",
+    "city": "Riyadh",
+    "vatNumber": "326563552735073",
+    "crNumber": "5377419564",
+    "x": -364,
+    "y": 100
+  },
+  {
+    "id": "SRC",
+    "name": "Saudi Readymix Concrete",
+    "shortName": "Saudi Readymix",
+    "sector": "Cement & Concrete",
+    "city": "Al Khobar",
+    "vatNumber": "331424656573373",
+    "crNumber": "6978685397",
+    "x": -414,
+    "y": -35
+  },
+  {
+    "id": "ALF",
+    "name": "Alfanar",
+    "shortName": "Alfanar",
+    "sector": "Electrical",
+    "city": "Riyadh",
+    "vatNumber": "339937168742893",
+    "crNumber": "3740308179",
+    "x": -270,
+    "y": -153
+  }
+]

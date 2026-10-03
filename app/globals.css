@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Design tokens — Claude.md §10. */
+@theme inline {
+  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+@theme {
+  --color-ink: #0f172a;
+  --color-muted: #475569;
+  --color-line: #e2e8f0;
+  --color-canvas: #ffffff;
+  --color-subtle: #f8fafc;
+  --color-primary: #12355b;
+  --color-accent: #0e7c7b;
+  --color-good: #1b7f4c;
+  --color-warn: #b7791f;
+  --color-bad: #b42318;
+
+  /* Settlement round colours, in assignment order. */
+  --color-round-1: #12355b;
+  --color-round-2: #0e7c7b;
+  --color-round-3: #b7791f;
+  --color-round-4: #7a4eab;
+  --color-round-5: #c2410c;
+  --color-round-6: #4d7c0f;
+
+  /* Corners never exceed rounded-md: larger radius utilities are capped. */
+  --radius-lg: 0.375rem;
+  --radius-xl: 0.375rem;
+  --radius-2xl: 0.375rem;
+  --radius-3xl: 0.375rem;
+  --radius-4xl: 0.375rem;
+}
+
+@utility num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Network graph: one short decorative pulse on edges whose round assignment changed (≤ 600 ms). */
+@keyframes edge-pulse {
+  0% { opacity: 1; stroke-width: 6; }
+  100% { opacity: 1; }
+}
+.edge-pulse path { animation: edge-pulse 600ms ease-out 1; }
+@media (prefers-reduced-motion: reduce) {
+  .edge-pulse path { animation: none; }
+}
+/* Hovered nodes come to the front so their hover card is never covered. */
+.react-flow__node:hover { z-index: 1000 !important; }
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}

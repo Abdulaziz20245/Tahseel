@@ -1,0 +1,82 @@
+[
+  {
+    "id": "E01",
+    "type": "invoice_issued",
+    "title": "Fatoora: new invoice NSM-2026-0412, Nesma → El Seif, SAR 805,000",
+    "invoice": {
+      "id": "NSM-2026-0412",
+      "fatooraUuid": "9090bdfe-b8df-4e51-a54f-8398ba173084",
+      "sellerId": "NSM",
+      "buyerId": "ESE",
+      "issueDate": "2026-10-03",
+      "dueDate": "2026-11-02",
+      "amountExVat": 700000,
+      "vat": 105000,
+      "total": 805000,
+      "status": "open",
+      "description": "Subcontract: MEP works package — Riyadh hospital project"
+    }
+  },
+  {
+    "id": "E02",
+    "type": "constraint_set",
+    "title": "Zamil Steel: \"We pay ALF-2026-0102 in 10 days\" (not before 2026-10-13)",
+    "constraint": {
+      "id": "C-ZML-0102",
+      "companyId": "ZML",
+      "kind": "notBefore",
+      "invoiceId": "ALF-2026-0102",
+      "date": "2026-10-13",
+      "note": "We pay this invoice in 10 days"
+    }
+  },
+  {
+    "id": "E03",
+    "type": "payment_marked",
+    "title": "Bank match confirmed: YCC-2026-0213 paid outside Tahseel",
+    "invoiceId": "YCC-2026-0213",
+    "bankMatch": true
+  },
+  {
+    "id": "E04",
+    "type": "payment_marked",
+    "title": "BPT-2026-0304 marked paid, but no bank match — on hold",
+    "invoiceId": "BPT-2026-0304",
+    "bankMatch": false
+  },
+  {
+    "id": "E05",
+    "type": "proposal_confirmed",
+    "title": "All companies confirm their settlement proposals",
+    "companyIds": "all"
+  },
+  {
+    "id": "E06",
+    "type": "round_executed",
+    "title": "Hub executes the earliest settlement round"
+  },
+  {
+    "id": "E07",
+    "type": "date_advanced",
+    "title": "Date advances to 2026-10-12",
+    "newDate": "2026-10-12"
+  },
+  {
+    "id": "E08",
+    "type": "invoice_issued",
+    "title": "Fatoora: new invoice SRC-2026-0461, Saudi Readymix → Nesma, SAR 552,000",
+    "invoice": {
+      "id": "SRC-2026-0461",
+      "fatooraUuid": "3a5730a0-676a-4237-ab25-c8c8eac6a5a4",
+      "sellerId": "SRC",
+      "buyerId": "NSM",
+      "issueDate": "2026-10-12",
+      "dueDate": "2026-11-11",
+      "amountExVat": 480000,
+      "vat": 72000,
+      "total": 552000,
+      "status": "open",
+      "description": "Ready-mix C40, 1,400 m³"
+    }
+  }
+]

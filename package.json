@@ -1,0 +1,38 @@
+{
+  "name": "prototype",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "postinstall": "node scripts/copy-highs-wasm.mjs",
+    "prebuild": "node scripts/copy-highs-wasm.mjs && npm run validate",
+    "build": "next build",
+    "validate": "tsx scripts/validate-data.ts",
+    "describe-data": "tsx scripts/describe-data.ts",
+    "check-story": "tsx scripts/check-story.ts",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "@xyflow/react": "^12.12.0",
+    "highs": "^1.15.3",
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^4.1.11"
+  }
+}

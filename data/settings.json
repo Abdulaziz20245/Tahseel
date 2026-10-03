@@ -1,0 +1,7 @@
+{
+  "scenarioDate": "2026-10-03",
+  "maxPaymentDays": 60,
+  "vatRate": 0.15,
+  "financingRateIllustrative": 0.08,
+  "currency": "SAR"
+}
